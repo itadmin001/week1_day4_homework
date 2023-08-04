@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5385;
+    color: #333;
+    text-align: left;
+    background-color: #2196F3;
+}
+
+.featured__container{
+    max-width:100%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width:480px;
+    max-height:110px;
+    margin-top:20px;
+    background-color: #ffa500;
+    color:brown;
+    border-radius: 8em;
+}
+
+.mt-50{
+
+    margin-top: 50px;
+}
+
+.mb-50{
+
+    margin-bottom: 50px;
+}
+
+.container{
+    width:100% !important;
+}
+
+.navbar-brand img{
+    max-width: 65px;
+    margin-left:15px;
+}
+
+form.d-flex{
+    margin-right:20px
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .1875rem;
+}
+
+.card-img-actions {
+    position: relative;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.carousel .card-img{
+    width:300px;
+}
+
+.card-img{
+    max-width: 350px;
+    max-height: 250px;
+    min-height: 250px;
+}
+
+.star{
+        color: red;
+}
+
+.bg-cart {
+    background-color:orange !important;
+    color:#fff;
+}
+
+.bg-cart:hover {
+    
+    color:#fff;
+}
+
+.bg-buy {
+    background-color:green;
+    color:#fff;
+    padding-right: 29px;
+}
+.bg-buy:hover {
+    
+    color:#fff;
+}
+
+a{
+
+    text-decoration: none !important;
+}
+
+
+.has-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
+    border-radius: 8px;
+    box-shadow: none;
+    border: none;
+    transition: 0.2s;
+    padding: 1em;
+    border: 1px solid white;
+    &:hover {
+      border: 1px solid orange;
+    }
+  }
+}
+
+.hero-image{
+    margin-top:10px;
+    position: relative;
+}
+
+.hero-text{
+    display: flex;
+    font-size:5vw;
+    font-weight: 900;
+    position: absolute;
+    top:400px;
+    left:125px;
+    color:#333;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+.hero-image img {
+  width: 100%;
+  display: block;
+  box-shadow: 2px 4px 14px 2px rgba(0,0,0,.75);
+}
+.hero-image.full-width {
+  width: 100vw;
+  height:auto;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  box-shadow: 2px 2px 14px rgba(0,0,0,.75);
+}
+
+.carousel{
+    margin:50px auto;
+    transition-property: all;
+    transition-duration: .55;
+    transition-timing-function: ease-in-out;
+    display: flex;
+    width:max-content
+  }
